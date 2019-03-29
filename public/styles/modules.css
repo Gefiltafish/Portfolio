@@ -1,0 +1,119 @@
+.container {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+.column {
+    display: flex;
+    flex-flow: wrap column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.fixedTop {
+    position: fixed;
+    z-index: 30;
+}
+
+.fixedLeft {
+    display: flex;
+    flex-flow: wrap column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.greenColor {
+    background-color: #128f76;
+}
+
+.whiteColor {
+    background-color: white;
+}
+
+.whiteText {
+    color: white;
+}
+
+.roundedPortrait {
+    border-radius: 50%
+}
+
+.marginTop {
+   margin-top: 100px;
+}
+
+.spaceBetween {
+    justify-content: space-around;
+}
+
+.card {
+    border: solid rgba(110, 109, 109, 0.813);
+    max-height: 289px;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.maxSize {
+    max-width: 340px;
+    max-height: 460px;
+}
+
+.maxWidth {
+    max-width: 45%;
+}
+
+.margin {
+    margin-top: 30px;
+}
+
+.darkLine {
+    background-color: #2c3e50;
+    width: 40%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-top: solid .25rem
+}
+
+.whiteLine {
+    width: 40% !important;
+    margin-top: 2rem !important;
+    margin-bottom: 2rem !important;
+    border-top: solid .25rem !important;
+}
+
+.section {
+    height: 90px;
+}
+
+#headerimg {
+    object-fit: contain;
+}
+
+#clickToScrollAbout {
+    padding-right: 110px;
+}
+
+@media screen and (max-width: 610px) {
+    
+    #clickToScrollAbout {
+        padding: 0px;
+}
+
+    .adjustableSize {
+        font-size: 17px;
+    }
+}

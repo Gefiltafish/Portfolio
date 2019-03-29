@@ -1,0 +1,49 @@
+doctype html  
+html(lang='en')  
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='description', content='Some description')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    link(rel='stylesheet', href='/styles/main.css')
+    link(rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous")
+    link(href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet")
+    title Teodors Portfolio
+  body
+    nav.fixedTop.container.spaceBetween.adjustableSize
+      a#home Teodors Portfolio <br/>
+      a#clickToScrollPictures Projects <br/>
+      a#clickToScrollAbout About <br/>
+    header.greenColor
+      .container.column
+        img#headerimg.maxSize.roundedPortrait.marginTop(src="pictures/myAvatar.svg", alt=":)")
+        h1 #{name}
+        h3 Full Stack developer
+        .whiteLine
+        p Javascript, CSS, HTML, Node, Express, Handlebars, React, Pug, Bootstrap, JQuery, Agile
+        .section
+    div#pictures.container.whiteColor.column
+      h2 Projects
+      .darkLine
+      .container
+        img.card.margin(src="pictures/Albums-picture.png", alt="Picture of a project")
+        img.card.margin(src="pictures/ToDo-picture.png", alt="Picture of a project")
+        img.card.margin(src="pictures/portfolio.png", alt="Picture of a project")
+        img.card.margin(src="http://cdn02.abakushost.com/projektesports/filerepo/images/upcoming_projects.jpg", alt="Picture of a project")
+      .section
+    div#about.container.greenColor.whiteText.column
+      h2 About
+      .whiteLine
+      .maxWidth.fixedLeft
+        h4 My name is #{name} and I live in Stockholm Sweden. I believe in living life to the fullest and have a great time doing so. Before the summer of 2018 I had never wrote a single line of code, even less thought that programming was ever something for me. I found myself interested in problemsolving in many aspects of code, and hence...I became a programmer. As of now I am studying at #{place} on the journey of becoming a Fullstack Javascript developer. <br> Feel free to visit my github and linkedin for further information about me and my projects.<br> Enjoy
+        .section
+        .container.spaceBetween
+          a(href="https://github.com/Gefiltafish")
+            <i class="fab fa-github fa-3x"></i>
+          a(href="https://www.linkedin.com/in/teodorjonsson/")
+            <i class="fab fa-linkedin-in fa-3x"></i>
+          a(href="")
+            <i class="far fa-envelope fa-3x"></i>
+      .section
+      .section
+  script(src="/scripts.js")
