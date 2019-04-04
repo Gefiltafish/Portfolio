@@ -21,6 +21,6 @@ Focus of my portfolio was to be clean-looking, have a nice UX and be fully respo
 -Icons will bring you to Github and LinkedIn <br />
 -Works with both desktop and mobile view
 
-##Further implementations
+##Further implementations <br />
 -Thumbnails for projects <br />
 -Mail-icon should bring you to a mail pop-up
